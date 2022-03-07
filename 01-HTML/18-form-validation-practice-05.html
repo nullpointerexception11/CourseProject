@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+
+<body>
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Adi : </label></td>
+                <td><input type="text" name="name" id="name" required></td>
+                <td></td>
+                <td><label for="hobbys">Hobiler : </label></td>
+                <td><input type="checkbox" name="hobby" id="hobbys"> Futbol</td>
+            </tr>
+            <tr>
+                <td><label for="surname">Soyadi : </label></td>
+                <td><input type="text" name="surname" id="surname" required></td>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="hobby" id="hobbys">Voleybol</td>
+            </tr>
+            <tr>
+                <td><label for="gender">Cinsiyet : </label></td>
+                <td><input type="radio" name="gender" id="male">Bay
+                    <input type="radio" name="gender" id="female">Bayan
+                </td>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="hobby" id="hobbys">Basketbol</td>
+            </tr>
+            <tr>
+                <td><label for="city">Ilce : </label></td>
+                <td>
+                    <select name="sehir" id="sehir">
+                        <option value="1">Karsiyaka</option>
+                        <option value="2">Konak</option>
+                        <option value="3">Bornova</option>
+                        <option value="4">Bayrakli</option>
+                    </select>
+                </td>
+                <td></td>
+                <td><label for="profilePic">Profil Fotografi : </label></td>
+                <td><input type="file" name="profilePic" id="profilePic"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Eposta : </label></td>
+                <td><input type="email" name="email" id="eposta" maxlength="50"></td>
+                <td></td>
+                <td><label for="birthday">Dogum Tarihi : </label></td>
+                <td><input type="date" name="birtday" id="dogum" max="2012-01-01"></td>
+            </tr>
+            <tr>
+                <td><label for="blog">Kisisel Site : </label></td>
+                <td><input type="url" name="blog" id="site"></td>
+                <td></td>
+                <td><label for="address">Adres : </label></td>
+                <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Telefon : </label></td>
+                <td><input type="tel" name="tel" id="tel" maxlength="11"></td>
+                <td></td>
+                <td></td>
+                <td><input type="submit" value="Kayit Ol"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

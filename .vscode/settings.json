@@ -1,0 +1,6 @@
+{
+    "editor.linkedEditing": true,
+    "gitlens.views.repositories.autoRefresh": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line"
+}

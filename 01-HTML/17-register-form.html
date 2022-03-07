@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <form action="">
+
+        <table>
+            <tr>
+                <td> <label for="isim">Isim</label></td>
+                <td><input type="text" name="isim" id="isim" required minlength="4" maxlength="20" </td>
+            </tr>
+            <tr>
+                <td><label for="date">Dogum Tarihi</label></td>
+                <td><input type="date" name="date" id="date" required min="2001-01-01"></td>
+            </tr>
+            <tr>
+                <td><label for="eposta">Eposta</label></td>
+                <td><input type="email" name="email" id="eposta" required maxlength="80"></td>
+            </tr>
+            <tr>
+                <td><label for="sifre">Sifre</label></td>
+                <td><input type="password" name="sifre" id="sifre" required minlength="8" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Save"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

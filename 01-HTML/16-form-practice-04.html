@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <form action="user/register" method="get">
+        <!-- backend baglama isi netlesiyor -->
+        <table>
+            <tr>
+                <!-- label kutuya isim veriyor ve isme tiklandiginda bile kutuya yazabilirsin
+                    , value kutu icine default deger yazar -->
+                <td> <label for="eposta">Eposta</label></td>
+                <td><input type="email" name="Eposta" id="eposta" disabled></td>
+                <!-- disable tamamen kapatiyor ama readonly kapamiyor ama yazamiyon da -->
+            </tr>
+            <tr>
+                <td><label for="pass">Sifre</label></td>
+                <td><input type="password" name="Password" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label for="cod">Guvenlik Kodu</label></td>
+                <td><input type="text" name="cod" id="cod" value="ABC" readonly></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Kaydet">
+                    <input type="reset" value="Temizle">
+                </td>
+            </tr>
+        </table>
+
+        <input type="checkbox" name="Futbol" id="futbol"><label for="futbol">Futbol</label>
+        <input type="checkbox" name="music" id="music"><label for="music">Muzik</label>
+        <!-- checkbox biren fazla isaretlenebiliyor -->
+
+        <br>
+
+        <input type="radio" name="cinsiyet" id="gender"><label for="gender">Erkek</label>
+        <input type="radio" name="cinsiyet" id="gender2"><label for="gender2">Kadin</label>
+        <!-- nameler ayni idler farkli olacak -->
+        <br>
+        <label for="profil">Profil foto sec</label><input type="file" name="choose file" id="choose">
+        <br>
+        <input type="color" name="profilrengi" id="renk">
+        <br>
+        <input type="range" name="asda" id="asdasd">
+        <br>
+        <input type="date" name="asd" id="ad">
+        <br>
+        <input type="time" name="asd" id="asdasd">  
+    
+    </form>
+</body>
+
+</html>
