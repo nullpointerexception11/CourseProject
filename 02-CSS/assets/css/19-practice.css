@@ -1,0 +1,24 @@
+:root{
+    --color1: rgb(243, 168, 123);
+}
+nav.menu ul li{
+
+}
+nav.menu input{
+    width: 5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+nav.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav.menu a{
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    width: 5rem;
+    text-align: center;
+    margin-right: 1rem;
+}
