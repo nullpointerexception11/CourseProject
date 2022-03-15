@@ -1,0 +1,42 @@
+:root{
+    --color1: rgb(243, 169, 169);
+    --color2: rgb(168, 10, 10);
+    --color3: rgb(190, 179, 11);
+}
+nav.menu{
+   background-color: var(--color1);
+}
+nav.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav.menu > ul > li{
+    display: inline-block;
+    background-color: var(--color3);
+}
+nav.menu ul ul{
+    display: none;
+    position:absolute;
+    background-color: var(--color1);
+    left: 0;
+    top: 33px ;
+    text-align: left;
+}
+nav.menu > ul > li:hover{
+    background-color: bisque;
+}
+nav.menu > ul > li:hover ul{
+    display: inline-block;
+}
+nav.menu a{
+    text-decoration: none;
+    color: var(--color2);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+} 
+navçmenu ul ul a:hover{
+    background-color: aqua ;
+    display: block;
+}
