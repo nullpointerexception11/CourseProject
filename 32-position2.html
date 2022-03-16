@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/all.min.css">
+    <style>
+        body{
+            padding:2rem;
+        }
+        .container{
+            background-color: yellow;
+            height: 30vh;
+        }
+        .container span{
+            display: inline-block;
+            padding:1rem;
+        }
+        .container span:first-child{
+            background-color: red;
+            position: relative;
+            left:10px;
+            top:150px;
+        }
+        .container span:last-child{
+            background-color: blue;
+            position: relative;
+            left:200px;
+            top:150px;
+        }
+        .kutu{
+            padding:2rem;
+            min-height: 200px;
+        }
+        .kutu1{
+            background-color: red;
+            
+        }
+        .kutu2{
+            background-color: rgb(18, 61, 141);
+            
+        }
+        .kutu3{
+            background-color: rgb(79, 219, 133);
+            position: relative;
+            
+        }
+        .kutu span{
+            background-color: blueviolet;
+            width:50px;
+            height: 50px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right:0;
+            bottom:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span>Merhaba</span><span>Dünya</span>
+    </div>
+    <div class="kutu kutu1">
+        <div class="kutu kutu2">
+            <div class="kutu kutu3">
+                <span><i class="fa-solid fa-user"></i></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
