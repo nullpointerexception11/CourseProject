@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="number" name="" id="not1" placeholder="Bir sayi girin" min="1">
+    <input type="number" name="" id="not2" placeholder="Bir sayi girin" min="1">
+
+    <button id="hesapla">Hesapla</button>
+
+    <h3 id="goster">
+        </>
+
+        <script>
+
+            document.querySelector("#hesapla").addEventListener('click', (e) => {
+
+                let not1 = document.querySelector("#not1").value;
+                let not2 = document.querySelector("#not2").value;
+
+                let ortalama = ((Number) (not1) + (Number) (not2)) / 2;
+
+                switch (true) {
+                    case ortalama > 90:
+                        document.querySelector("#goster").innerHTML = `Ortalamaniz : ${ortalama} | Harf Degeri : A`;
+                        break;
+                    case ortalama > 80:
+                        document.querySelector("#goster").innerHTML = `Ortalamaniz : ${ortalama} | Harf Degeri : B`;
+                        break;
+                    case ortalama > 70:
+                        document.querySelector("#goster").innerHTML = `Ortalamaniz : ${ortalama} | Harf Degeri : C`;
+                        break;
+                    case ortalama > 60:
+                        document.querySelector("#goster").innerHTML = `Ortalamaniz : ${ortalama} | Harf Degeri : D`;
+                        break;
+                    default:
+                        document.querySelector("#goster").innerHTML = `Ortalamaniz : ${ortalama} | Harf Degeri : FF`;
+                        break;
+                }
+            });
+
+
+
+        </script>
+</body>
+
+</html>
