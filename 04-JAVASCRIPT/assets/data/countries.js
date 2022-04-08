@@ -1,4 +1,4 @@
-export const data = [
+export const countries = [
     {
         "name": {
             "common": "Aruba",
