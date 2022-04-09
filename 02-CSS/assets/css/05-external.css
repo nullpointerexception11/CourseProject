@@ -1,14 +1,25 @@
-h1{
-    font: size 3rem;;
-    text-align: center;
-    color: rebeccapurple;
-    background-color: aqua;
+
+*{
+    color:brown;
 }
 
-/* 
-* isareti tum html elemanlarini secmeye yara
-orn 
-*{ 
-        vs vs 
+/****** HEADER *******/
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color:blue;
 }
- */
+
+p.aaa{
+    font-size: 1.3rem;
+    background-color: chartreuse;
+    color:darkred;
+}
+
+.bbb{
+    font-weight: bold;
+}
+
+
+
+/****** NAVBAR *******/
