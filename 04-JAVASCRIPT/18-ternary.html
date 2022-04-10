@@ -7,25 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    
     <input type="text" name="" id="txtMaas">
     <button onclick="hesapla()">Hesapla</button>
 
     <label id="lblSonuc"></label>
 
     <script>
-
         function hesapla(){
-
-            let maas = document.querySelector('#txtMaas').value;
-            let sonuc = maas > 10000 ? (maas > 20000 ? 'Cok iyi' : 'Fena Degil') : 'Az';
-
-            document.querySelector('#lblSonuc').innerText = sonuc;
+            let maas = document.querySelector("#txtMaas").value;
+            let sonuc = maas > 10000 ?  (maas > 20000 ? "Çok iyi" : "Fena değil")  : "Az";
+            document.querySelector("#lblSonuc").innerText = sonuc;
 
         }
-
-
-
     </script>
 </body>
 </html>
